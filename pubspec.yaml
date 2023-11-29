@@ -1,0 +1,43 @@
+name: words
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  shared_preferences: ^2.2.2
+  cupertino_icons: ^1.0.2
+  path_provider: ^2.0.11
+  audioplayers: ^5.2.1
+#  fluttertoast: ^8.2.4
+  oktoast: ^3.4.0
+  soundpool: ^2.4.1
+  sqflite: ^2.3.0
+  intl: ^0.18.1
+#  flutter_redux: ^0.10.0
+  provider: ^6.1.1
+  flustars_flutter3: ^3.0.0
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/json/
+    - assets/sound/Speech_EN/
+    - assets/sound/Speech_US/
+    - assets/img.jpg
+    - assets/weixin.jpg
+    - assets/zhifubao.jpg
